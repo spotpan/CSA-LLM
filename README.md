@@ -48,9 +48,7 @@ $$
 
 Since we have $[\mathbf{Q}]_{i,j} = P(y_u=j\mid y_v=i)$, this simplifies to:
 
-$$
-P(y_w=k\mid y_v=i) = \sum_{j\in\mathcal{Y}} [\mathbf{Q}]_{j,k} [\mathbf{Q}]_{i,j} = [\mathbf{Q}^2]_{i,k}.
-$$
+$$P(y_w=k\mid y_v=i) = \sum_{j\in\mathcal{Y}} [\mathbf{Q}]_{j,k} [\mathbf{Q}]_{i,j} = [\mathbf{Q}^2]_{i,k}.$$
 
 To show that the **2-hop neighborhood** $N_2(v)$ of any node $v$ is **homophily-dominant in expectation**, we must demonstrate:
 
