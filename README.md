@@ -38,7 +38,7 @@ $$
 \end{bmatrix}, \quad \forall v \in \mathcal{V}.
 $$
 
-Now, let $ w \in N_2(v) $ be a node that is two hops away from $ v $. The probability that node $ w $ has a label $ y_w = k $ given that node $ v $ has a label $ y_v = i $ can be computed as follows:
+Now, let $ w \in N_2(v) $ be a node that is two hops away from $v$. The probability that node $ w $ has a label $ y_w = k $ given that node $ v $ has a label $ y_v = i $ can be computed as follows:
 
 $$
 P(y_w = k \mid y_v = i) = \sum_{j \in \mathcal{Y}} P(y_w = k \mid y_u = j) P(y_u = j \mid y_v = i).
