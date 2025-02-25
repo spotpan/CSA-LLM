@@ -82,7 +82,7 @@ $$
 
 ### **Off-Diagonal Elements:**
 $$
-mathbf{Q}^h]_{i,j} = \frac{1 - (\alpha - \beta)^h}{|\mathcal{Y}|}, \quad j \neq i
+mathbf{Q}^h_{i,j} = \frac{1 - (\alpha - \beta)^h}{|\mathcal{Y}|}, \quad j \neq i
 $$
 
 ## 5. Proof of Diagonal Dominance
