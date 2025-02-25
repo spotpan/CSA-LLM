@@ -90,19 +90,19 @@ $$
 We now prove:
 
 $$
-\mathbf{Q}^h_{i,i} > mathbf{Q}^h_{i,j}, \quad \forall j \neq i
+\mathbf{Q}^h_{i,i} > \mathbf{Q}^h_{i,j}, \quad \forall j \neq i
 $$
 
 Computing the difference:
 
 $$
-\mathbf{Q}^h_{i,i} - mathbf{Q}^h_{i,j} = \left( (\alpha - \beta)^h + \frac{1 - (\alpha - \beta)^h}{|\mathcal{Y}|} \right) - \frac{1 - (\alpha - \beta)^h}{mathcal{Y}|}
+\mathbf{Q}^h_{i,i} - \mathbf{Q}^h_{i,j} = \left( (\alpha - \beta)^h + \frac{1 - (\alpha - \beta)^h}{|\mathcal{Y}|} \right) - \frac{1 - (\alpha - \beta)^h}{mathcal{Y}|}
 $$
 
 Simplifying:
 
 $$
-\mathbf{Q}^h_{i,i} - mathbf{Q}^h_{i,j} = (\alpha - \beta)^h
+\mathbf{Q}^h_{i,i} - \mathbf{Q}^h_{i,j} = (\alpha - \beta)^h
 $$
 
 Since $\alpha > \beta$, we have:
