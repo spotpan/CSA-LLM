@@ -156,3 +156,6 @@ Thus, **multi-hop label propagation preserves homophily dominance**.
 - This result provides insight into how **multi-hop label propagation in graphs** behaves under a probabilistic homophily assumption.
 
 🚀 **This proof validates the role of homophily in LLM-driven graph annotation!** 🚀
+
+## **Run Code**
+python3 src/main.py  --dataset cora --model_name GCN --data_format sbert --main_seed_num 5 --split active --output_intermediate 0 --no_val 1 --strategy pagerank2 --debug 1 --total_budget 140 --filter_strategy consistency --loss_type ce --second_filter conf+entropy --epochs 150 --debug_gt_label 0 --early_stop_start 150 --filter_all_wrong_labels 0 --oracle 1 --ratio 0.2 --alpha 0.15 --beta 0.65
