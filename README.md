@@ -96,7 +96,7 @@ $$
 Computing the difference:
 
 $$
-\mathbf{Q}^h_{i,i} - \mathbf{Q}^h_{i,j} = \left( (\alpha - \beta)^h + \frac{1 - (\alpha - \beta)^h}{|\mathcal{Y}|} \right) - \frac{1 - (\alpha - \beta)^h}{\mathcal{Y}|}
+\mathbf{Q}^h_{i,i} - \mathbf{Q}^h_{i,j} = \left( (\alpha - \beta)^h + \frac{1 - (\alpha - \beta)^h}{|\mathcal{Y}|} \right) - \frac{1 - (\alpha - \beta)^h}{|\mathcal{Y}|}
 $$
 
 Simplifying:
