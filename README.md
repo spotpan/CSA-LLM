@@ -143,7 +143,7 @@ $$
 - **Diagonal dominance is proven** by showing:
 
 $$
-\mathbf{Q}^h_{i,i} - mathbf{Q}^h]_{i,j} = (\alpha - \beta)^h > 0
+\mathbf{Q}^h_{i,i} - \mathbf{Q}^h]_{i,j} = (\alpha - \beta)^h > 0
 $$
 
 🚀 **This proof rigorously establishes that homophily dominance is maintained for all $h \geq 2$.** 🚀
