@@ -77,12 +77,12 @@ From the above equation:
 
 ### **Diagonal Elements:**
 $$
-mathbf{Q}^h]_{i,i} = (\alpha - \beta)^h + \frac{1 - (\alpha - \beta)^h}{|\mathcal{Y}|
+mathbf{Q}^h_{i,i} = (\alpha - \beta)^h + \frac{1 - (\alpha - \beta)^h}{mathcal{Y}|
 $$
 
 ### **Off-Diagonal Elements:**
 $$
-mathbf{Q}^h]_{i,j} = \frac{1 - (\alpha - \beta)^h}{|\mathcal{Y}|}, \quad j \neq i
+mathbf{Q}^h]_{i,j} = \frac{1 - (\alpha - \beta)^h}{mathcal{Y}}, \quad j \neq i
 $$
 
 ## 5. Proof of Diagonal Dominance
