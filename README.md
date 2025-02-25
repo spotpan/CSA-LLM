@@ -126,25 +126,25 @@ Thus, **multi-hop label propagation preserves homophily dominance**.
 
 - The **correct** expression for $\mathbf{Q}^h$ is:
 
-  $$
-  \mathbf{Q}^h = (\alpha - \beta)^h \mathbf{I} + \frac{1 - (\alpha - \beta)^h}{|\mathcal{Y}|} \mathbf{J}
-  $$
+$$
+\mathbf{Q}^h = (\alpha - \beta)^h \mathbf{I} + \frac{1 - (\alpha - \beta)^h}{|\mathcal{Y}|} \mathbf{J}
+$$
 
 - The **correct diagonal and off-diagonal elements**:
 
-  $$
-  \mathbf{Q}^h_{i,i} = (\alpha - \beta)^h + \frac{1 - (\alpha - \beta)^h}{|\mathcal{Y}|}
-  $$
+$$
+\mathbf{Q}^h_{i,i} = (\alpha - \beta)^h + \frac{1 - (\alpha - \beta)^h}{|\mathcal{Y}|}
+$$
 
-  $$
-  \mathbf{Q}^h_{i,j} = \frac{1 - (\alpha - \beta)^h}{|\mathcal{Y}|}, \quad j \neq i
-  $$
+$$
+\mathbf{Q}^h_{i,j} = \frac{1 - (\alpha - \beta)^h}{|\mathcal{Y}|}, \quad j \neq i
+$$
 
 - **Diagonal dominance is proven** by showing:
 
-  $$
-  \mathbf{Q}^h_{i,i} - mathbf{Q}^h]_{i,j} = (\alpha - \beta)^h > 0
-  $$
+$$
+\mathbf{Q}^h_{i,i} - mathbf{Q}^h]_{i,j} = (\alpha - \beta)^h > 0
+$$
 
 🚀 **This proof rigorously establishes that homophily dominance is maintained for all $h \geq 2$.** 🚀
 
